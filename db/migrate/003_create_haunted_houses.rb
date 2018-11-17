@@ -10,7 +10,7 @@ class CreateHauntedHouses < ActiveRecord::Migration[4.2]
       t.boolean :still_in_business
       t.datetime :opening_date
       t.datetime :closing_date
-      t.long
+      t.string :description
       t.timestamps
     end
   end
